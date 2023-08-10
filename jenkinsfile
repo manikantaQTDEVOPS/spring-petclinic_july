@@ -11,7 +11,7 @@ pipeline {
     tools {
         jdk 'java-17'
     } 
-    stages{
+    stages {
         stage('git') {
             steps {
             git url: https://github.com/manikantaQTDEVOPS/spring-petclinic_july.git
