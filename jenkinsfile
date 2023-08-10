@@ -1,5 +1,5 @@
 pipeline {
-    agent{
+    agent {
         lable 'jdk-17'
     }
     options {
