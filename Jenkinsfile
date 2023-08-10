@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        lable 'jdk-17'
-    }
+    agent {'lable jdk-17'}
     options {
         timeout( time: 30, unit: 'MINUTES')
     }
